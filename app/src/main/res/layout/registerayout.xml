@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+     >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:paddingStart="15dp"
+        android:textColorHint="#fff"
+        android:background="@drawable/rounded"
+        android:id="@+id/nameField"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="3dp"
+        android:ems="10"
+        android:textColor="#fff"
+
+        android:hint="Name"
+        android:inputType=""
+        android:elevation="1dp"
+        />
+
+    <EditText
+        android:elevation="1dp"
+        android:paddingStart="15dp"
+        android:textColorHint="#fff"
+        android:background="@drawable/rounded"
+        android:textColor="#fff"
+        android:id="@+id/aadharField"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Aadhar No."
+        android:inputType="number"
+        android:maxLength="12" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/econsumerField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/locationField">
+
+        <!--android:onClick="location" -->
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:paddingStart="10dp"
+            android:textColorHint="#fff"
+
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5.25"
+            android:textSize="18sp"
+            android:hint=" Home Location"/>
+
+        <ImageView
+
+            android:id="@+id/gps"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+
+            android:scaleType="fitXY"
+            android:scaleY="4"
+            android:scaleX="3"
+            android:src="@drawable/loc3" />
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+
+        android:layout_marginBottom="10dp"
+        android:paddingStart="15dp"
+        android:textColorHint="#fff"
+        android:background="@drawable/rounded"
+        android:textColor="#fff"
+        android:id="@+id/econsumerField"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/aadharField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Electricity Consumer No."
+        android:inputType="number"
+        android:maxLength="10"/>
+
+
+    <Button
+        android:textColor="#333333"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="REGISTER"
+        android:id="@+id/reg"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/locationField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded1"
+        />
+
+
+    <!--  <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="#ffffff"
+          android:textStyle="bold"
+          android:text="THIS IS FRAGMENT A" /> -->
+
+</RelativeLayout>

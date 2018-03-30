@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginStart="120dp"/>
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded3"
+        android:layout_marginStart="66dp"
+        android:text="REGISTER"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+<LinearLayout
+
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="20dp">
+
+    <view
+        android:layout_width="130dp"
+        android:layout_height="1dp"
+        android:background="#333333"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="30dp">
+
+    </view>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"/>
+    <view
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="1dp"
+        android:background="#333333"
+        android:layout_marginLeft="30dp"
+        >
+
+    </view>
+</LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded2"
+        android:layout_marginStart="66dp"
+        android:text="SIGN IN"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+</LinearLayout>

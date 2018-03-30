@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.musketeers.realm.RegisterActivity"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+   android:background="#fff">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/door"
+        android:scaleType="fitCenter"
+        android:scaleY="0.5"
+        android:scaleX="0.5"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@drawable/grad1">
+
+    <me.relex.circleindicator.CircleIndicator
+      android:id="@+id/indicator"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      >
+    </me.relex.circleindicator.CircleIndicator>
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vp">
+
+    </android.support.v4.view.ViewPager>
+  </LinearLayout>
+
+   <!-- <EditText
+        android:id="@+id/nameField"
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/etheight"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/aadharField"
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/etheight"
+        android:layout_below="@+id/nameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Aadhar No."
+        android:inputType="number"
+        android:maxLength="12" />
+
+    <LinearLayout
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/etheight"
+        android:layout_below="@id/econsumerField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/locationField"
+        android:onClick="location">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/etheight"
+            android:layout_weight="5.25"
+            android:textSize="18sp"
+            android:hint=" Home Location"/>
+
+        <ImageView
+            android:id="@+id/gps"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/crosshair"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/econsumerField"
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/etheight"
+        android:layout_below="@+id/aadharField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Electricity Consumer No."
+        android:inputType="number"
+        android:maxLength="10"/>
+
+    <ImageView
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/etheight"
+        android:id="@+id/reg"
+        android:layout_below="@+id/locationField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="register"
+        android:src="@drawable/register"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_mic_black_24dp"
+        android:onClick="talk"/>
+
+    <TextView
+        android:id="@+id/exixting_user"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/reg"
+        android:layout_alignTop="@+id/speak"
+        android:layout_marginStart="58dp"
+        android:onClick="existing_user"
+        android:text="Existing User! Click Here" /> -->
+
+</LinearLayout>

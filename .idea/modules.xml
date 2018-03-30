@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\Smart-Home-master (1)\Smart-Home-master\Realm.iml" filepath="E:\Smart-Home-master (1)\Smart-Home-master\Realm.iml" />
+      <module fileurl="file://D:\Smarthome_UI_4-master\Smart-Home-master.iml" filepath="D:\Smarthome_UI_4-master\Smart-Home-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Smarthome_UI_4-master.iml" filepath="$PROJECT_DIR$/Smarthome_UI_4-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

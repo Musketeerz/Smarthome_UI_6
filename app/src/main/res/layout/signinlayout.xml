@@ -1,0 +1,79 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        >
+
+        <!--<TextView
+            android:id="@+id/enter_password"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Enter Passcode"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp" /> -->
+
+        <EditText
+            android:id="@+id/adhaar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:hint="FIRST 5 DIGITS OF ADHAAR ID"
+            android:inputType="numberPassword"
+            android:paddingStart="3dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/consumer"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/adhaar"
+            android:layout_below="@+id/adhaar"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:hint="LAST 5 DIGITS OF CONSUMER ID"
+            android:inputType="numberPassword"
+            android:paddingStart="3dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="14sp" />
+
+        <Button
+
+
+            android:id="@+id/sync"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/rounded1"
+            android:text="Sync with Device"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
